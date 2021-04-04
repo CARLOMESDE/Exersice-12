@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head></head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="Exercise11/Exercise11.css">
+<link rel="stylesheet" href="Exersice12/Exercise12.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-
-<div class="header">
-  <img src="Exercise11/images/image1.jpg" style width="395px">
-  <img src="Exercise11/images/image2.jpg" style width="395px">
-</div>
-
-<div class="row">
-<div class="col-3">
-  </ul>
-</div>
-
-<div class="big">
-  <img src="Exercise11/images/image3.jpg" style width="1200px" height="400px">
-</div>
-
-
-<div>
-  <div class="second">
-      <img src="Exercise11/images/image4.jpg" style width="190px" >
-      <img src="Exercise11/images/image5.jpg" style width="190px" >
-      <img src="Exercise11/images/image6.jpg" style width="190px" >
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+<div class="flex-container">
+  <div class="flex-item-left"><p>Where to go in an archipelagic country of over 7,600 islands? <br>
+    Here are my top picks for travelers who want to discover beautiful destinations in the Philippines.<br>
+    Let’s start off with the top destinations that are both exceptionally beautiful and easy to reach,<br>
+     perfect for first-time visitors. Next, I’m going to share some spots that truly stand out from <br>
+     the other destinations in the country.<br>
+     For those who want to see more of the Philippines,<br>
+     I’ve also included a long list of popular destinations and interesting places,<br>
+      so you can enjoy a virtual tour of what my home country has to offer.<br>
+  </p></div>
+  <div class="flex-item-right"><p>Since the country is so spread out, <br>
+    a trip to the Philippines requires careful planning so that<br>
+     you can connect with the proper guides and find the most convenient<br>
+     lodging as a base for your favorite activities. Some destinations<br>
+     like the Chocolate Hills in Bohol or the Hanging Coffins in Sagada,<br>
+      are remote, but getting there is well worth the effort.<br></p></div>
 </div>
 
-<div class="third">
-<img src="Exercise11/images/image7.jpg" style width="240px">
-<img src="Exercise11/images/image8.jpg" style width="240px">
-<img src="Exercise11/images/image9.jpg" style width="240px">
-<img src="Exercise11/images/image10.png" style width="240px">
+<div class="flex-container">
+  <div class="flex-item-left"><img src="Exersice12/images/big.jpg" style width="700px" height="600px"></div>
+  </div>
+
+<div class="flex-container">
+<div class="flex-item-left"><p>Boracay is a small island in the central Philippines.<br>
+   It's known for its resorts and beaches. Along the west coast,<br>
+    White Beach is backed by palm trees, bars and restaurants.<br>
+    On the east coast, strong winds make Bulabog Beach a hub for water sports. Nearby,<br>
+    the observation deck on Mount Luho offers panoramic views over the island. Offshore,<br>
+   coral reefs and shipwrecks are home to diverse marine life<br></p></div>
+<div class="flex-item-right"><p>Philippines, is an archipelagic country in Southeast Asia. <br>
+  Situated in the western Pacific Ocean, it consists of about 7,640 islands that are broadly categorized <br>
+  under three main geographical<br>
+   divisions from north to south:<br>
+    Luzon, Visayas, and Mindanao.<br></p></div>
+<div class="flex-item-right"><img src="Exersice12/images/Ph.jpg" style width="500px"></div>
 </div>
+
+<div class="flex-container">
+<div class="flex-item-left"><img src="Exersice12/images/image 1.jpg" style width="240px"></div>
+<div class="flex-item-right"><img src="Exersice12/images/image 2.jpg" style width="240px"></div>
+<div class="flex-item-right"><img src="Exersice12/images/image 3.jpg"style width="240px"></div>
+<div class="flex-item-right"><img src="Exersice12/images/image 4.jpg" style width="240px"></div>
+</div>
+
 </body>
 </html>

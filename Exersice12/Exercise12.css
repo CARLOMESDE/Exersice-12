@@ -1,0 +1,368 @@
+body {
+    background-color: #FFDFD3;
+  }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px
+}
+
+.flex-item-left {
+  background-color: #ffffff;
+  padding: 5px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  flex: 50%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.flex-contain {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px
+}
+
+
+.flex-item-left {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+
+}
+
+.flex-item-right {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  flex: 50%;
+
+}
+
+
+@media (max-width: 768px) {
+  .flex-item-right, .flex-item-left {
+    flex: 25%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  @media screen and (max-width: 320px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+body {
+  background-color: #FFDFD3;
+}
+
+ @media only screen and (max-width: 1024px) {
+  body {
+    background-color: rgb(230, 201, 173);
+    padding: auto;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  
+  .flex-item-left {
+    background-color: #ffffff;
+    padding: 5px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    flex: 50%;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+}
+  @media only screen and (max-width: 768px) {
+  body {
+    background-color: #FFDFD3;
+    padding: auto; 
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .flex-container  {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  
+  .flex-item-left {
+    background-color: #ffffff;
+    padding: 5px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    flex: 50%;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #FFDFD3;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #21d809;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px
+}
+
+
+
+.flex-item-left {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  flex: 50%;
+}
+
+
+@media (max-width: 768px) {
+  .flex-item-right, .flex-item-left {
+    flex: 25%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  @media screen and (max-width: 320px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
